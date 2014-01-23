@@ -1,5 +1,8 @@
 # Bootstrap v3 datetimepicker plugin for rails
 
+ahhh, i'm not goog before i build this lib
+check out [this](https://github.com/TrevorS/bootstrap3-datetimepicker-rails) repo
+
 wraps [bootstrap-datetimepicker](https://github.com/Eonasdan/bootstrap-datetimepicker) in a rails
 
 ## Installation
