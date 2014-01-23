@@ -6,7 +6,7 @@ wraps [bootstrap-datetimepicker](https://github.com/Eonasdan/bootstrap-datetimep
 
 Add this line to your application's Gemfile:
 
-	````ruby
+	```ruby
 	gem 'bootstrap3-datetimepicker-rails', git: "git@github.com:fauzanqadri/bootstrap3-datetimepicker-rails.git"
 	gem 'momentjs-rails'
 
@@ -19,12 +19,12 @@ And then execute:
 ## Usage
 You have to require bootstrap-datetimepicker in your application.css after requiring bootstrap
 
-	````html
+	```html
 	*= require bootstrap-datetimepicker.min
 
 and in your application.js after requiring bootstrap
 
-	````html
+	```html
 	//= require moment
 	//= require bootstrap-datetimepicker.min
 
