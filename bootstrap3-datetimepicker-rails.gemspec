@@ -1,16 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'bootstrap3/datetimepicker/rails/version'
+require 'bootstrap3-datetimepicker-rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "bootstrap3-datetimepicker-rails"
-  spec.version       = Bootstrap3::Datetimepicker::Rails::VERSION
+  spec.version       = Bootstrap3DatetimePickerRails::VERSION
   spec.authors       = ["Fauzan Qadri"]
   spec.email         = ["ojankill@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{wraps bootstrap-datetimepicker in a rails}
+  spec.description   = %q{wraps bootstrap-datetimepicker in a rails}
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

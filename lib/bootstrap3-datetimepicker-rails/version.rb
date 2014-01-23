@@ -1,3 +1,3 @@
-module Bootstrap3DatetimepickerRails
+module Bootstrap3DatetimePickerRails
 	VERSION = "0.0.1"
 end

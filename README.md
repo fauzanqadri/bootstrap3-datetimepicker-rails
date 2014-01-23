@@ -1,24 +1,34 @@
-# Bootstrap3::Datetimepicker::Rails
+# Bootstrap v3 datetimepicker plugin for rails
 
-TODO: Write a gem description
+wraps [bootstrap-datetimepicker](https://github.com/Eonasdan/bootstrap-datetimepicker) in a rails
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'bootstrap3-datetimepicker-rails'
+````ruby
+gem 'bootstrap3-datetimepicker-rails'
+gem 'momentjs-rails'
+
+why???, because i don't know how to test this properly, so i don't wanna publish this gem before it tested
 
 And then execute:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install bootstrap3-datetimepicker-rails
+    $ bundle install
 
 ## Usage
+You have to require bootstrap-datetimepicker in your application.css after requiring bootstrap
+````html
+*= require bootstrap-datetimepicker.min
 
-TODO: Write usage instructions here
+and in your application.js after requiring bootstrap
+````html
+//= require moment
+//= require bootstrap-datetimepicker.min
+
+## Dependency
+
+* [momentjs-rail](https://github.com/derekprior/momentjs-rails)
 
 ## Contributing
 
